@@ -3,15 +3,15 @@
 # Usage:
 # python find_optimal_params.py -i <filename> (without .cpp extension)
 
-import sys, os, getopt
+import sys, os, getopt, re 
 
 def main():
     run_dir = '/home/student/Desktop/Shira_Michal/level3_run_noPBC_2_4/run/for_yehuda_send'
     f1_vals = range(60, 200, 50)
     f2_vals = [0.25, 0.5, 1.0]
     suffixes = {'min': 'min',
-                'nvt_1': 'nvt'}#,
-               # 'nvt_BB_real': 'nvt'}
+                'nvt_1': 'nvt',
+                'nvt_BB_real': 'nvt'}
     mult_arr = [1, 2, 0, 2]
     for f1 in f1_vals:
         for f2 in f2_vals:
@@ -38,6 +38,49 @@ def main():
             ###################################################################################################
             ################################ save results of nvt__BB run ######################################
             # add code
+            f1_f2_list = []
+            f1_f2 = [] #[num_Moles, num_Specs, num_Timestep]
+            num_Moles = 0 
+            num_Specs = 0
+            num_Timestep = 0
+            inputFile_t = str('{}/nvt_BB_real/species.out'.format(run_dir))
+
+                        
+            #inputFile = open('{}/nvt_BB_real/species.out'.format(run_dir), 'r')
+            file = open(inputFile_t, 'r')
+            line = file.readline()
+            while line:
+	            # creating the reviews_list - an array of arrays that contains the full details required for each f1_f2	   
+	            if re.match(r"([0-9]+)", line):
+		            temp = re.match(r"([0-9])+[ ]+([0-9])+[ ]+([0-9])+", line)
+		            if temp:
+			            if num_Moles == 0 and num_Specs == 0 and num_Timestep == 0:
+				            num_Moles = int(temp.group(2))
+				            num_Specs = int(temp.group(3))
+				            num_Timestep = 1
+				            
+				            
+			            elif num_Moles == int(temp.group(2)) and num_Specs == int(temp.group(3)):
+				            num_Timestep = num_Timestep + 1
+				            
+			            elif num_Moles != int(temp.group(2)) or num_Specs != int(temp.group(3)):
+				            f1_f2.extend([num_Moles, num_Specs,num_Timestep])	
+				            f1_f2_list.append(f1_f2)
+				            f1_f2 = []
+				            num_Moles = int(temp.group(2))
+				            num_Specs = int(temp.group(3))
+				            num_Timestep = 1
+	            line = file.readline()
+            print(f1_f2_list)
+
+            file.close()
+
+            #f1_f2_info_file = open(os.getcwd() + "\\result_f1=" + str(f1)+ "_f2=" + str(f2) + ".txt", 'w') 
+            f1_f2_info_file_t = str('{}/nvt_BB_real/all_results_for_f1_f2/result_f1='.format(run_dir)) + str(f1)+ "_f2=" + str(f2) +".txt"
+            f1_f2_info_file = open(f1_f2_info_file_t, 'w')
+            str_forces = "f1 = " + str(f1) + " f2 = " + str(f2) + "\n"
+            f1_f2_info_file.write(str_forces + str(f1_f2_list))
+            f1_f2_info_file.close()
             ###################################################################################################
     print("yayy")
 
