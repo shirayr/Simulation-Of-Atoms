@@ -71,6 +71,8 @@ def main():
 				            num_Specs = int(temp.group(3))
 				            num_Timestep = 1
 	            line = file.readline()
+			f1_f2.extend([num_Moles, num_Specs,num_Timestep])	
+			f1_f2_list.append(f1_f2)
             print(f1_f2_list)
 
             file.close()
