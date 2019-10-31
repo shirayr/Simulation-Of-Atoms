@@ -114,8 +114,8 @@ def main():
             file.close()
 
             #f1_f2_info_file = open(os.getcwd() + "\\result_f1=" + str(f1)+ "_f2=" + str(f2) + ".txt", 'w')
-            f1_f2_info_file_t = str('{}/nvt_BB_real/all_results_for_f1_f2/result_f1='.format(run_dir)) + str(f1)+ "_f2=" + str(f2) +".txt"
-            f1_f2_info_file = open(f1_f2_info_file_t, 'w')
+            f1_f2_info_file_t = str('{}/nvt_BB_real/all_results_for_f1_f2/result_f1_f2.txt'.format(run_dir)) 
+            f1_f2_info_file = open(f1_f2_info_file_t, 'a+')
             str_forces = "f1 = " + str(f1) + " f2 = " + str(f2) + "\n"
             f1_f2_info_file.write(str_forces + str(f1_f2_list))
             f1_f2_info_file.close()
