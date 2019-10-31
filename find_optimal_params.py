@@ -55,7 +55,7 @@ def main():
                     headers = line
                     line = file.readline()
                 if re.match(r"([0-9]+)", line):
-                    temp = re.match(r"([0-9])+[ ]+([0-9])+[ ]+([0-9])+", line)
+                    temp = re.match(r"([0-9]+)[ ]+([0-9]+)[ ]+([0-9]+)", line)
                     if temp:
                         if int(temp.group(1)) == 152000:
                             dict = {"f1":f1,"f2":f2,"C11H18N2": 0, "C19H20O4": 0, "C30H38O4N2": 0, "C41H56O4N4": 0, "C49H58O8N2": 0, "C68H78O12N2": 0,"C79H96O12N4": 0, "Other": 0}
