@@ -66,7 +66,7 @@ def main():
                     if re.match(r"([0-9]+)", line):
                         temp = re.match(r"([0-9]+)[ ]+([0-9]+)[ ]+([0-9]+)", line)
                         if temp:
-                            if int(temp.group(1)) == 152000:
+                            if int(temp.group(1)) == 500000:
                                 dict = {"f11":f11,"f12":f12,"f13":0,"f14":f14,"C11H18N2": 0, "C19H20O4": 0, "C30H38O4N2": 0, "C41H56O4N4": 0, "C49H58O8N2": 0, "C68H78O12N2": 0,"C79H96O12N4": 0, "Other": 0}
                                 headers = re.sub(' +', ' ', headers)
                                 headers = re.sub('\t+', ' ', headers)
