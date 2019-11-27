@@ -9,14 +9,14 @@ def main():
     run_dir = '/home/student/Desktop/Shira_Michal/level3_run_PBC_2_4/run/for_yehuda_send'
     params_file = open('{}/nvt_BB_real/Extra_Potential_Parameters.txt'.format(run_dir), 'r')
 	lines = params_file.readlines()
-	f1_vals = lines[14]
+	f1_vals = lines[19]
 	f1_vals = f1_vals.split(",")
-	f2_vals = lines[16]
+	f2_vals = lines[21]
 	f2_vals = f2_vals.split(",")
 	params_file.close()
 	f1_vals = range(int(f1_vals[0]), int(f1_vals[1]), int(f1_vals[2]))# range(50, 151, 50)
 	f2_vals = float(f2_vals[0])# range(0.75,1,1)
-	Timestep = int(lines[18])
+	Timestep = int(lines[23])
     suffixes = {'min': 'min',
                 'nvt_1': 'nvt',
                 'nvt_BB_real': 'nvt'}
@@ -35,13 +35,13 @@ def main():
                 mult.append(f12)
                 mult.append(0)#f13)
                 mult.append(f14)
-                for line_num, (line, f1) in enumerate(zip(lines[20:], mult)):
+                for line_num, (line, f1) in enumerate(zip(lines[14:], mult)):
                     data = line.split()
                     data[2] = str(f1)
                     data[3] = str(f2_vals)
                     if line_num == 2:
                         data[3] = str(0)
-                    lines[line_num+20] = ' '.join(data) + '\n'
+                    lines[line_num+14] = ' '.join(data) + '\n'
                 params_file.writelines(lines)
                 params_file.close()
                 ###################################################################################################
