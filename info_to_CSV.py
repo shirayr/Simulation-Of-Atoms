@@ -1,3 +1,13 @@
+# info_to_CSV.py
+# Script that present the result of the program find_optimal_params 
+# by CSV file and define the types of the Molecules
+# Input: 
+# resultCSV.txt
+# Output:
+# 4_forces_last_step_Timestep.csv	
+# Usage:
+# python info_to_CSV.py 
+
 import re
 import os
 import csv
