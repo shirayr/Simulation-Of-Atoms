@@ -11,14 +11,14 @@ start_and_end_timeout_timesteps
 3000
 num_steps_to_cool_down
 1000
+TYPE1 TYPE2 F1 F2 R12
+1 3 150 0.75 3.0
+2 3 150 0.75 1.0
+2 4 0 0 0
+1 4 150 0.75 1.5
 f1_vals 
 50,151,50
 f2_vals 
 0.75,1,1
 Timestep 
 152000
-TYPE1 TYPE2 F1 F2 R12
-1 3 150 0.75 3.0
-2 3 150 0.75 1.0
-2 4 0 0 0
-1 4 150 0.75 1.5
