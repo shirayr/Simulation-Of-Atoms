@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 
 
 def make_graph(axis_x, axis_y, xlabel="x", ylabel="y", title="Graph"):
+    plt.plot([axis_x], [axis_y], marker='o', markersize=5, color="red")
     plt.plot(axis_x, axis_y)
     plt.title(title)
     plt.xlabel(xlabel)
