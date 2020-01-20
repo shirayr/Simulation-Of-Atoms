@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 
 def make_graph(axis_x, axis_y, xlabel="x", ylabel="y", title="Graph"):
-    plt.plot([axis_x], [axis_y], marker='o', markersize=5, color="red")
+    plt.plot([axis_x], [axis_y], marker='o', markersize=3, color="red")
     plt.plot(axis_x, axis_y)
     plt.title(title)
     plt.xlabel(xlabel)
@@ -10,15 +10,18 @@ def make_graph(axis_x, axis_y, xlabel="x", ylabel="y", title="Graph"):
     plt.show()
 
 
-def cross_percent_graph(run_size):
+def cross_percent_graph():
     species_file = open('species.out', 'r')
     species_line = species_file.read().split('\n')
+    run_size = int(species_line[-2].split()[0])  # get the number of timestep from the last line
+    step = int(species_line[1].split()[0])  # get the step intervals that dumped to the file
 
-    five_samples = [int(run_size / 5) * i for i in range(1, 6)]
-    indexes = [int(i/100 * 2 - 1) for i in five_samples]
+    sample_size = int(run_size * 0.00025)  # we took the sample size to be 0.025 percent of the run size
+    partial_sample = [int(run_size / sample_size) * i for i in range(1, sample_size+1)]
+    indexes = [int(i/step * 2 - 1) for i in partial_sample]
     species_headlines = [species_line[i - 1].split()[1:] for i in indexes]
     species_values = [species_line[i].split() for i in indexes]
-    print(five_samples)
+    print(partial_sample)
     print(species_headlines)
     print(species_values)
 
@@ -38,8 +41,8 @@ def cross_percent_graph(run_size):
 
     cross_percent = list(cross_percent.values())
     print(cross_percent)
-    make_graph(five_samples, cross_percent, 'Time Step', 'Cross Percent', 'Cross Percent as a function of time')
+    make_graph(partial_sample, cross_percent, 'Time Step', 'Cross Percent', 'Cross Percent as a function of time')
 
 
 if __name__ == '__main__':
-    cross_percent_graph(2000000)
+    cross_percent_graph()
