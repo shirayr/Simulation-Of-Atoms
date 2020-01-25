@@ -48,7 +48,7 @@ def main():
                 ########################################## runs 3 levels ##########################################
                 for suffix, exe_file in suffixes.items():
                     curr_dir = '{}/{}'.format(run_dir, suffix)
-                    cmd = '/home/student/Desktop/original_lammps/lammps/src/lmp_serial < in.{}'.format(exe_file)
+                    cmd = 'OMP_NUM_THREADS=4 /home/student/lammps/src/lmp_omp -sf omp < in.{}'.format(exe_file)
                     out_file = 'res_{}.txt'.format(exe_file)
                     run(curr_dir, cmd, out_file) # do cd + run in.suffix
                 ###################################################################################################
@@ -65,49 +65,50 @@ def main():
                             
                 #inputFile = open('{}/nvt_BB_real/species.out'.format(run_dir), 'r')
                 file = open(inputFile_t, 'r')
-				species_line = file.read().split('\n')
-				species_headlines = [species_line[i].split()[1:] for i in range(0,len(species_line)-1,2)]
-				species_values = [species_line[i].split() for i in range(1,len(species_line),2)]
-				for headers, info in zip(species_headlines, species_values):
-					if int(info[0]) == Timestep:
-						dict = {"f11":f11,"f12":f12,"f13":0,"f14":f14,"C11H18N2": 0, "C19H20O4": 0, "C30H38O4N2": 0, "C41H56O4N4": 0, "C49H58O8N2": 0, "C68H78O12N2": 0,"C79H96O12N4": 0, "Other": 0}
-						count_others = 0
-						for i, (mole_name, no_moles) in enumerate(zip(headers[3:], info[3:])):
-							if mole_name in dict.keys():
-								dict[mole_name] = no_moles
-							else:
-								count_others = count_others + int(no_moles)
-						dict["Other"] = count_others
+                species_line = file.read().split('\n')
+                species_headlines = [species_line[i].split()[1:] for i in range(0,len(species_line)-1,2)]
+                species_values = [species_line[i].split() for i in range(1,len(species_line),2)]
+                for headers, info in zip(species_headlines, species_values):
+                    if int(info[0]) == Timestep:
+                        dict = {"f11":f11,"f12":f12,"f13":0,"f14":f14,"C11H18N2": 0, "C19H20O4": 0, "C30H38O4N2": 0, "C41H56O4N4": 0, "C49H58O8N2": 0, "C68H78O12N2": 0,"C79H96O12N4": 0, "Other": 0}
+                        count_others = 0
+                        for i, (mole_name, no_moles) in enumerate(zip(headers[3:], info[3:])):
+                            if mole_name in dict.keys():
+                                dict[mole_name] = no_moles
+                            else:
+                                count_others = count_others + int(no_moles)
+                        dict["Other"] = count_others
 
-						all_info_file_t = str('{}/nvt_BB_real/all_results_for_f1_f2/resultCSV.txt'.format(run_dir))
-						all_info_file = open(all_info_file_t, 'a+')
-						list_keys = []
-						list_values = []
-						for key, value in dict.items():
-							list_keys.append(key)
-							list_values.append(value)
-						all_info_file.write(str(list_keys)+"\n")
-						all_info_file.write(str(list_values)+"\n")
+                        all_info_file_t = str('{}/nvt_BB_real/all_results_for_f1_f2/resultCSV.txt'.format(run_dir))
+                        all_info_file = open(all_info_file_t, 'a+')
+                        list_keys = []
+                        list_values = []
+                        for key, value in dict.items():
+                            list_keys.append(key)
+                            list_values.append(value)
+                        all_info_file.write(str(list_keys)+"\n")
+                        all_info_file.write(str(list_values)+"\n")
 
-						all_info_file.close()
-
-
-					if num_Moles == 0 and num_Specs == 0 and num_Timestep == 0:
-						num_Moles = int(info[1]))
-						num_Specs = int(info[2])
-						num_Timestep = 1
+                        all_info_file.close()
 
 
-					elif num_Moles == int(info[1]) and num_Specs == int(info[2]):
-						num_Timestep = num_Timestep + 1
+                    if num_Moles == 0 and num_Specs == 0 and num_Timestep == 0:
+                        
+                        num_Moles = int(info[1])
+                        num_Specs = int(info[2])
+                        num_Timestep = 1
 
-					elif num_Moles != int(info[1]) or num_Specs != int(info[2]):
-						f1_f2.extend([num_Moles, num_Specs,num_Timestep])
-						f1_f2_list.append(f1_f2)
-						f1_f2 = []
-						num_Moles = int(info[1])
-						num_Specs = int(info[2])
-						num_Timestep = 1
+
+                    elif num_Moles == int(info[1]) and num_Specs == int(info[2]):
+                        num_Timestep = num_Timestep + 1
+
+                    elif num_Moles != int(info[1]) or num_Specs != int(info[2]):
+                        f1_f2.extend([num_Moles, num_Specs,num_Timestep])
+                        f1_f2_list.append(f1_f2)
+                        f1_f2 = []
+                        num_Moles = int(info[1])
+                        num_Specs = int(info[2])
+                        num_Timestep = 1
                     line = file.readline()
                 f1_f2.extend([num_Moles, num_Specs,num_Timestep])
                 f1_f2_list.append(f1_f2)
