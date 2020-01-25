@@ -8,17 +8,16 @@ N tags
 max_iterarions_of_potential
 10000
 start_and_end_timeout_timesteps
-3000
+30000
 num_steps_to_cool_down
 1000
 TYPE1 TYPE2 F1 F2 R12
-1 3 150 0.75 3.0
-2 3 150 0.75 1.0
+1 3 50 0.75 3.0
+2 3 50 0.75 1.0
 2 4 0 0 0
-1 4 150 0.75 1.5
+1 4 100 0.75 1.5
 f1_vals 
 50,151,50
 f2_vals 
 0.75,1,1
-Timestep 
-152000
+
