@@ -1153,7 +1153,7 @@ int PairReaxC::set_fourset(int **foursets, int num_foursets){
 		  fourset[num_fourset][j]=foursets[i][j];
 		}
 		num_fourset++;
-		printf("fourset: %d, %d, %d, %d\n num_fourset: %d \n", foursets[i][0], foursets[i][1], foursets[i][2], foursets[i][3], i);
+		printf("fourset: %d, %d, %d, %d\n num_fourset: %d \n", foursets[i][0], foursets[i][1], foursets[i][2], foursets[i][3], num_fourset);
 	}
   }
   //reset to 0 the rest of the foursets list struct

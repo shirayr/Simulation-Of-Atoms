@@ -430,7 +430,7 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
 					fourset[i][1] = 0;
 					fourset[i][2] = 0;
 					fourset[i][3] = 0;
-					printf("\n delete fourset number %d, because atom id %d\n", i, atom_id);
+					printf("\n delete fourset number %d, because atom id %d\n", i+1, atom_id);
 					break;
 				}
 				else{	// update follow_selected_atoms with curr atom
