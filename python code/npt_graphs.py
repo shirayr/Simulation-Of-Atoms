@@ -55,7 +55,7 @@ def log_graphs():
 		volume_arr.append(float(ln[5]))
 		density_arr.append(float(ln[6]))
 
-	#make_graph(timeStep_arr, temp_arr, "TimeStep", "Temprature", "Temprature As A Function Of Time","temp.png")
+	make_graph(timeStep_arr, temp_arr, "TimeStep", "Temprature", "Temprature As A Function Of Time","temp.png")
 	#make_graph(timeStep_arr, press_arr, "TimeStep", "Pressure", "Pressure As A Function Of Time","press.png")
 	#make_graph(timeStep_arr, potE_arr, "TimeStep", "Potential Energy", "Potential Energy As A Function Of Time","potE.png")
 	#make_graph(timeStep_arr, totalE_arr, "TimeStep", "Total Energy", "Total Energy As A Function Of Time","totE.png")
