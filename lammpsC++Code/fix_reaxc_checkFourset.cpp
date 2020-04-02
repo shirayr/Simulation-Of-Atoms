@@ -395,65 +395,79 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
   }*/
 
     if(num_fourset!=0){
-     //choose randomly fourset to apply the potential on.
-//      int rand_num;
-//      if(num_fourset==1) rand_num=0;
-//      else rand_num= int(rand() % num_fourset + 1) - 1;
-      
-      
-      //swap places between the first fourset to the randomly chosen fourset
-//      int temp_val;
-//      for(int _s=0; _s<4; _s++){
-//        temp_val=fourset[0][_s];
-//        fourset[0][_s] = fourset[rand_num][_s];
-//        fourset[rand_num][_s]=temp_val;
-//      }
-
 		
 		// Check which quartets meet the conditions and delete those that do not
 		// Initialize the follow_selected_atoms array
-		for(int i=0; i<atom->nlocal; i++)
+		int arr_size = sizeof(follow_selected_atoms)/sizeof(follow_selected_atoms[0]);
+		for(int i=0; i<arr_size; i++)
 		{
 			follow_selected_atoms[i] = false;
 		}
 		printf("\n--------- in fix_reaxc: init array\n");
 		
+		
+		// If an atom is already in another quartet, delete the current quartet in which it appears
 		for(int i=0; i<num_fourset; i++)
 		{
-			for(int j=0; j<4; j++)
-			{
-				// If an atom is already in another quartet, delete the current quartet in which it appears
-				int atom_id = fourset[i][j];
-				if(follow_selected_atoms[atom_id] == true){
-					// At this point, delete means to put zeros
-					fourset[i][0] = 0;
-					fourset[i][1] = 0;
-					fourset[i][2] = 0;
-					fourset[i][3] = 0;
-					printf("\n delete fourset number %d, because atom id %d\n", i+1, atom_id);
-					break;
-				}
-				else{	// update follow_selected_atoms with curr atom
-					follow_selected_atoms[atom_id] = true;
-				}
+			int atom_id1 = fourset[i][0];
+			int atom_id2 = fourset[i][1];
+			int atom_id3 = fourset[i][2];
+			int atom_id4 = fourset[i][3];
+			int exist_atom = -1;
+			if(follow_selected_atoms[atom_id1] == true){
+				exist_atom = atom_id1;
+			}
+			else if(follow_selected_atoms[atom_id2] == true){
+				exist_atom = atom_id2;
+			}
+			else if(follow_selected_atoms[atom_id3] == true){
+				exist_atom = atom_id3;
+			}
+			else if(follow_selected_atoms[atom_id4] == true){
+				exist_atom = atom_id4;
+			}
+			if(exist_atom != -1){
+				// At this point, delete means to put zeros
+				fourset[i][0] = 0;
+				fourset[i][1] = 0;
+				fourset[i][2] = 0;
+				fourset[i][3] = 0;
+				printf("\n delete fourset number %d, because atom id %d\n", i+1, exist_atom);
+				break;
+			}
+			else{	// update follow_selected_atoms with curr atoms
+				follow_selected_atoms[atom_id1] = true;
+				follow_selected_atoms[atom_id2] = true;
+				follow_selected_atoms[atom_id3] = true;
+				follow_selected_atoms[atom_id4] = true;
 			}
 		}
-
-
-      //try to apply the extra potential on the chosen fourset
-//      int apply_flag = reaxc->set_fourset(fourset, 1);
-	  int apply_flag = reaxc->set_fourset(fourset, num_fourset);
-      //if the apply succeeded
-      if(apply_flag==1){
-        //optional: print all the founded foursets
-        for(int nn=0; nn<num_fourset; nn++)
-          printf("fourset #%d: %d %d %d %d\n",nn, fourset[nn][0], fourset[nn][1], fourset[nn][2], fourset[nn][3]);
-        printf("\n");
-        printf("\nstart operate the potential\n");
-        //write to the dists file the fourset we found and apply the extra potential on
-        fprintf (fp,"\n# fourset O H N C at timestep " BIGINT_FORMAT " : ",update->ntimestep);
-        fprintf(fp,"1/1- %d %d %d %d",fourset[0][0], fourset[0][1], fourset[0][2], fourset[0][3]);
-      }
+		
+		
+		// Check that remains quarters different from 0 (with no bugs - should remain at least 1)
+		bool valid_quarter = false;
+		if(fourset[0][0] != 0 && fourset[0][1] != 0 && fourset[0][2] != 0 && fourset[0][3] != 0){
+			valid_quarter = true;
+		}
+		
+		
+		if(valid_quarter){
+			// Try to apply the extra potential on the chosen fourset
+			int apply_flag = reaxc->set_fourset(fourset, num_fourset);
+			// if the apply succeeded
+			if(apply_flag==1){
+				// optional: print all the founded foursets
+				for(int nn=0; nn<num_fourset; nn++)
+					printf("/n applied fourset #%d: %d %d %d %d\n",nn, fourset[nn][0], fourset[nn][1], fourset[nn][2], fourset[nn][3]);
+				printf("\n\n start operate the potential\n");
+				// write to the dists file the fourset we found and apply the extra potential on
+				fprintf (fp,"\n# fourset O H N C at timestep " BIGINT_FORMAT " : ",update->ntimestep);
+				fprintf(fp,"1/1- %d %d %d %d",fourset[0][0], fourset[0][1], fourset[0][2], fourset[0][3]);
+			}
+		}
+		else{
+			printf("\n ERROR: invalid zeros quarter \n");
+		}
     }
   
 }
@@ -486,7 +500,7 @@ void FixReaxCCheckFourset::allocate()
   memory->create(o_c_pair_tags,4,2,"reax/c/checkFourset:o_c_pair_tags");//***************
   memory->create(n_tags,2,"reax/c/checkFourset:n_tags");//***************
   memory->create(fp_suffix,100,"reax/c/checkFourset:fp_suffix");//***************
-  memory->create(follow_selected_atoms,atom->nlocal,"reax/c/checkFourset:follow_selected_atoms");
+  memory->create(follow_selected_atoms,MAX_NUM_FOURSETS,"reax/c/checkFourset:follow_selected_atoms");
 }
 
 /* ---------------------------------------------------------------------- */
@@ -499,6 +513,7 @@ double FixReaxCCheckFourset::memory_usage()
   bytes += 1.0*4*2*sizeof(int);//o_c_pair_tags
   bytes += 1.0*2*sizeof(int);//n_tags
   bytes += 1.0*100*sizeof(char);//fp_suffix
+  bytes += 1.0*MAX_NUM_FOURSETS*sizeof(bool);//follow_selected_atoms
 
   return bytes;
 }
