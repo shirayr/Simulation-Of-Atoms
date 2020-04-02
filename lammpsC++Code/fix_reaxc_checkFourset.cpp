@@ -433,7 +433,7 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
 				fourset[i][2] = 0;
 				fourset[i][3] = 0;
 				printf("\n delete fourset number %d, because atom id %d\n", i+1, exist_atom);
-				break;
+				continue;
 			}
 			else{	// update follow_selected_atoms with curr atoms
 				follow_selected_atoms[atom_id1] = true;
@@ -458,7 +458,7 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
 			if(apply_flag==1){
 				// optional: print all the founded foursets
 				for(int nn=0; nn<num_fourset; nn++)
-					printf("/n applied fourset #%d: %d %d %d %d\n",nn, fourset[nn][0], fourset[nn][1], fourset[nn][2], fourset[nn][3]);
+					printf("\n applied fourset #%d: %d %d %d %d\n",nn, fourset[nn][0], fourset[nn][1], fourset[nn][2], fourset[nn][3]);
 				printf("\n\n start operate the potential\n");
 				// write to the dists file the fourset we found and apply the extra potential on
 				fprintf (fp,"\n# fourset O H N C at timestep " BIGINT_FORMAT " : ",update->ntimestep);
@@ -466,7 +466,7 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
 			}
 		}
 		else{
-			printf("\n ERROR: invalid zeros quarter \n");
+			printf("\n -----ERROR: invalid zeros quarter \n");
 		}
     }
   
