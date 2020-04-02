@@ -1156,7 +1156,7 @@ int PairReaxC::set_fourset(int **foursets, int num_foursets){
 		printf("fourset: %d, %d, %d, %d\n num_fourset: %d \n", foursets[i][0], foursets[i][1], foursets[i][2], foursets[i][3], num_fourset);
 	}
   }
-  printf("\n TimeStep %d: \n The crossover attempt is performed on %d quarters \n", update->ntimestep, num_fourset);
+  printf("\n TimeStep %d:	The crossover attempt is performed on %d quarters \n", update->ntimestep, num_fourset);
   
   //reset to 0 the rest of the foursets list struct
   for(num_fourset; num_fourset<atom->nlocal; num_fourset++)
