@@ -1156,7 +1156,7 @@ int PairReaxC::set_fourset(int **foursets, int num_foursets){
 		printf("fourset: %d, %d, %d, %d\n num_fourset: %d \n", foursets[i][0], foursets[i][1], foursets[i][2], foursets[i][3], num_fourset);
 	}
   }
-  printf("\n TimeStep %d:	The crossover attempt is performed on %d quarters \n", update->ntimestep, num_fourset);
+  printf("\n TimeStep %d: The crossover attempt is performed on %d quarters \n", update->ntimestep, num_fourset);
   
   //reset to 0 the rest of the foursets list struct
   for(num_fourset; num_fourset<atom->nlocal; num_fourset++)
@@ -1171,18 +1171,14 @@ int PairReaxC::set_fourset(int **foursets, int num_foursets){
 double PairReaxC::compute_BB(){
 
   double e=0; //the amount of the additional energy
-  double res;
 
   for(int k=0; k<num_fourset; k++){
-    res = compute_BB_pair(fourset[k][0], fourset[k][1]); //O-H
-    if(res == -1) return-1;
-	e += res;
-    res = compute_BB_pair(fourset[k][0], fourset[k][3]); //O-C
-    if(res == -1) return-1;
-	e += res;
-    res = compute_BB_pair(fourset[k][2], fourset[k][3]); //N-C
-    if(res == -1) return-1;
-	e += res;
+    e+=compute_BB_pair(fourset[k][0], fourset[k][1]); //O-H
+    if(e==-1) return-1;
+    e+=compute_BB_pair(fourset[k][0], fourset[k][3]); //O-C
+    if(e==-1) return-1;
+    e+=compute_BB_pair(fourset[k][2], fourset[k][3]); //N-C
+    if(e==-1) return-1;
     /*e+=compute_BB_pair(fourset[k][2], fourset[k][1]); //N-H
       if(e==-1) return-1;*/
   }
