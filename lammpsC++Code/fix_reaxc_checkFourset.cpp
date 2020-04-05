@@ -108,12 +108,16 @@ FixReaxCCheckFourset::FixReaxCCheckFourset(LAMMPS *lmp, int narg, char **arg) :
   MAX_NUM_FOURSETS=atom->nlocal;
   timeout_timesteps_at_start_and_end=10000; //default value
   follow_selected_atoms = NULL;
+  ATOMS_ARRAY_SIZE = 937;	// 936+1 (num atoms + 1)
 
   allocate(); //allocate all the memory for each struct.
   strcpy(fp_suffix,arg[4]); //define the suffix for each dists file that follow dists between reactive atoms
 
   int _set_flag=set_mol_pattern();//set o_c_pair_tags, n_tags by the user input
   if(_set_flag!=0) error->all(FLERR,"Illegal \"Extra_Potential_Parameters\" file, illigal molecole file pattern");//**********
+  
+  ////// for checking
+  printf("\n -------- MAX_NUM_FOURSETS = %d\n", MAX_NUM_FOURSETS);
 
 }
 
@@ -398,8 +402,7 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
 		
 		// Check which quartets meet the conditions and delete those that do not
 		// Initialize the follow_selected_atoms array
-		int arr_size = sizeof(follow_selected_atoms)/sizeof(follow_selected_atoms[0]);
-		for(int i=0; i<arr_size; i++)
+		for(int i=0; i<ATOMS_ARRAY_SIZE; i++)
 		{
 			follow_selected_atoms[i] = false;
 		}
@@ -457,8 +460,8 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
 			// if the apply succeeded
 			if(apply_flag==1){
 				// optional: print all the founded foursets
-				for(int nn=0; nn<num_fourset; nn++)
-					printf("\n applied fourset #%d: %d %d %d %d\n",nn, fourset[nn][0], fourset[nn][1], fourset[nn][2], fourset[nn][3]);
+				//for(int nn=0; nn<num_fourset; nn++)
+				//	printf("\n applied fourset #%d: %d %d %d %d\n",nn, fourset[nn][0], fourset[nn][1], fourset[nn][2], fourset[nn][3]);
 				printf("\n\n start operate the potential\n");
 				// write to the dists file the fourset we found and apply the extra potential on
 				fprintf (fp,"\n# fourset O H N C at timestep " BIGINT_FORMAT " : ",update->ntimestep);
@@ -500,7 +503,7 @@ void FixReaxCCheckFourset::allocate()
   memory->create(o_c_pair_tags,4,2,"reax/c/checkFourset:o_c_pair_tags");//***************
   memory->create(n_tags,2,"reax/c/checkFourset:n_tags");//***************
   memory->create(fp_suffix,100,"reax/c/checkFourset:fp_suffix");//***************
-  memory->create(follow_selected_atoms,MAX_NUM_FOURSETS,"reax/c/checkFourset:follow_selected_atoms");
+  memory->create(follow_selected_atoms,ATOMS_ARRAY_SIZE,"reax/c/checkFourset:follow_selected_atoms");
 }
 
 /* ---------------------------------------------------------------------- */
@@ -513,7 +516,7 @@ double FixReaxCCheckFourset::memory_usage()
   bytes += 1.0*4*2*sizeof(int);//o_c_pair_tags
   bytes += 1.0*2*sizeof(int);//n_tags
   bytes += 1.0*100*sizeof(char);//fp_suffix
-  bytes += 1.0*MAX_NUM_FOURSETS*sizeof(bool);//follow_selected_atoms
+  bytes += 1.0*ATOMS_ARRAY_SIZE*sizeof(bool);//follow_selected_atoms
 
   return bytes;
 }
