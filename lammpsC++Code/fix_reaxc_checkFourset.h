@@ -53,6 +53,7 @@ class FixReaxCCheckFourset : public Fix {
 
   // Support the activation of the additional potential on several quarters simultaneously
   bool *follow_selected_atoms;	// keeps track of the atoms for the fourset list, so as not to keep the same atom in 2 quarters
+  int ATOMS_ARRAY_SIZE;
   
   void allocate(); //alocate memory
   void destroy(); //free memory
