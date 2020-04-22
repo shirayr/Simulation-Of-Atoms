@@ -15,47 +15,51 @@ import collections
 
 '''
 get a molecula
-return how D, E, name of the mole and Tziluv
+return: how many D, E, name of the mole and Tziluv
 '''
 def recognize_mole(mole_name):
-	Epon = [19, 20, 4, 0]
-	Detda = [11, 18, 0, 2]
-	delta = [3, 4, 1, 0]
+	Epon = [19, 20, 4, 0] # C, H, O, N
+	Detda = [11, 18, 0, 2] # C, H, O, N
+	delta = [3, 4, 1, 0] # can be missed in a mole
 	mole_name_org = mole_name
 	mole_name = mole_name.replace('C', '').replace('H', ' ').replace('O', ' ').replace('N', ' ')
 	amounts = mole_name.split()
 	amounts = [int(i) for i in amounts]
-	if mole_name_org == "H2O":
+	if mole_name_org == "H2O": # this a a water, its not consider a tear
 		return 0, 0, "H2O", 0
-	elif 'N' not in mole_name_org and len(amounts) == 3: # Epon
-		for i in (0, 1, 2):
+	elif 'N' not in mole_name_org and len(amounts) == 3: # Epon not contain N
+		for i in (0, 1, 2): # checking how many atoms for each base atom
 			if (Epon[i] - delta[i]) <= amounts[i] <= (Epon[i] + delta[i]):
 				continue
-			else:
+			else: # its a tear
 				return 0, 0, "Other", 0			
 		return 0, 1, "E1", 0
-	elif 'O' not in mole_name_org and len(amounts) == 3: # Detda
-		amounts.append(amounts[2])
-		for i in (0, 1, 3):
+	elif 'O' not in mole_name_org and len(amounts) == 3: # Detda not contain O
+		amounts.append(amounts[2]) # 0
+		for i in (0, 1, 3): # checking how many atoms for each base atom
 			if (Detda[i] - delta[i]) <= amounts[i] <= (Detda[i] + delta[i]):
 				continue
-			else:
+			else: # its a tear
 				return 0, 0, "Other", 0
 		return 1, 0, "D1", 0
-	elif len(amounts) == 4: # Detda and Epon
-		count_D = round(amounts[3]/Detda[3])
-		count_E = round(amounts[2]/Epon[2])
-		for i in (0, 1 ,2 ,3):
+	elif len(amounts) == 4: # Detda and Epon - probably - Tziluv
+		count_D = round(amounts[3]/Detda[3]) # because only D has N atom
+		count_E = round(amounts[2]/Epon[2]) # because only E has O atom
+		for i in (0, 1 ,2 ,3): # checking the amount of the staemed atoms
 			if abs(amounts[i] - count_D*Detda[i] - count_E*Epon[i])  <= delta[i]:
 				continue
-			else:
+			else: #there were too many missing atoms
 				return 0, 0, "Other", 0					
-		str_mol = "D" + str(count_D) + "E" + str(count_E)
+		str_mol = "D" + str(count_D) + "E" + str(count_E) 
 		Tziluv = count_D +count_E -1
 		return count_D, count_E, str_mol, Tziluv
 	return 0, 0, "Other", 0
 
-def pandas_func(run_dir,f1_vals):
+'''
+get the species file and the f valuesand return the amount of the Tziluv 
+by the meadian method of the 11 sample of in the end of the run
+'''
+def analyze_func(run_dir,f1_vals):
 	f2 = 0.75
 	dict_of_res =  {}
 	with open('{}/species50_50_0_50.txt'.format(run_dir), 'r') as f:
@@ -80,6 +84,7 @@ def pandas_func(run_dir,f1_vals):
 				nextStep = firstT
 				headers_csv = ''
 				with open('{}/species{}_{}_0_{}.txt'.format(run_dir, f11, f12,f14), 'r') as file:	
+					#this section predict all the name of moles can be in the 11 timestep in order to write the header of the CSV file
 					species_line = file.read().split('\n')
 					species_headlines = [species_line[i].split()[1:] for i in range(0,len(species_line)-1,2)]
 					species_values = [species_line[i].split() for i in range(1,len(species_line),2)]
@@ -97,15 +102,16 @@ def pandas_func(run_dir,f1_vals):
 					nextStep = firstT
 					with open('{}/CSV/species{}_{}_0_{}.csv'.format(run_dir, f11, f12,f14),'a') as csv_file:
 						headers_csv = "Step,f11,f12,f13,f14"
-						tziluv = []
-						for (m_name, m_tziluv) in cols_dict:
+						tziluv = []# saving the tziluv of each mole
+						for (m_name, m_tziluv) in cols_dict: # init
 							if m_name != 'H2O' and m_name != 'Other':
 								headers_csv = headers_csv + ',' + m_name
 								tziluv.append(m_tziluv)
 						headers_csv = headers_csv + ",H2O,Other"
-						tziluv.append(0)
-						tziluv.append(0)
+						tziluv.append(0)# H2O = 0
+						tziluv.append(0)# Otheres = 0
 						csv_file.write(headers_csv)
+						# checking the last 11 timesetps 
 						for headers, info in zip(species_headlines, species_values):
 							if int(info[0]) == nextStep: # line to check - saving the info of the step
 								dict = {"step":nextStep,"f11":f11,"f12":f12,"f13":0,"f14":f14}
@@ -114,6 +120,7 @@ def pandas_func(run_dir,f1_vals):
 										dict[m_name] = 0
 								dict['H2O'] = 0 
 								dict['Other'] = 0 
+								# calculate the moles of the run
 								for i, (mole_name, no_moles) in enumerate(zip(headers[3:], info[3:])):
 									count_D, count_E, str_mol, c_Tziluv = recognize_mole(mole_name)
 									if str_mol in dict.keys():
@@ -156,4 +163,4 @@ def pandas_func(run_dir,f1_vals):
 				
 
 if __name__ == "__main__":
-	pandas_func('all_results_for_f1_f2 _27',range(50,151,50))
+	analyze_func('all_results_for_f1_f2 _27',range(50,151,50))
