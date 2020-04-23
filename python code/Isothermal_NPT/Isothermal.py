@@ -19,11 +19,15 @@ Isoth = {} # the Isothermal for each npt-file
 kB = np.array([1.38065e-23], dtype=np.longfloat) # Boltzman constant
 kB = kB[0] 
 avg_volums = []
+tziluv_percent = []
+tziluv = -0.1
 for file_name in glob.glob("Npt_Files\*.txt"): # reading all the npt - files
 	nvtTimestep = int(re.findall(r'\d+',file_name)[0])
 	file = open(file_name, 'r')
 	npt_lines = file.read().split('\n')
 	npt_lines = npt_lines[9555:10056] # last 50K timestep when the volume ha stabilized
+	tziluv = tziluv + 0.1
+	tziluv_percent.append(tziluv)
 	volumes = []
 	for line in npt_lines:
 		res = line.split()
@@ -41,24 +45,24 @@ print(od)
 axis_x = []
 axis_y = []
 print(len(avg_volums))
-for (time, v) in zip(list(od.keys()), avg_volums):
-	axis_x.append(time)
+for (t, v) in zip(tziluv_percent, avg_volums):
+	axis_x.append(t)
 	axis_y.append(v)
 plt.clf()
 plt.plot(axis_x,axis_y)
-plt.xlabel("Timestep of NVT")
+plt.xlabel("Tziluv of NVT")
 plt.ylabel("V")
 plt.title("Avg_volume")
 plt.savefig("Avg_volume.png")
 plt.show()
 axis_x = []
 axis_y = []
-for k, v in od.items():
-	axis_x.append(k)
+for (t, (k, v)) in zip(tziluv_percent, od.items()):
+	axis_x.append(t)
 	axis_y.append(v)
 plt.clf()
 plt.plot(axis_x,axis_y)
-plt.xlabel("Timestep of NVT")
+plt.xlabel("Tziluv of NVT")
 plt.ylabel("Bt")
 plt.title("Isothermal Compression")
 plt.savefig("Isothermal Compression.png")
