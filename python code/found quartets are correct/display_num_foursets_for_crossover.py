@@ -1,3 +1,11 @@
+'''
+ display_num_foursets_for_crossover.py
+ Script that read the res_nvt_count_fourths.txt file (how many foursets found correct for applay the potential)
+ plot the graph- Number of foursets for crossover, as function of time
+ Usage:
+ python display_num_foursets_for_crossover.py 
+
+'''
 import os
 from matplotlib import pyplot as plt
 
@@ -28,9 +36,8 @@ def find_fourset_output(file_path, str):
 
 
 if __name__ == '__main__':
-    file_path = 'res_nvt.txt'
+    file_path = 'res_nvt_count_fourths.txt'
     str = 'The crossover attempt'
-    # str = 'fourset #'
     timesteps, num_foursets = find_fourset_output(file_path, str)
     make_graph(timesteps, num_foursets)
 
