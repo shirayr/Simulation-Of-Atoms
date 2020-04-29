@@ -20,7 +20,7 @@ return: how many D, E, name of the mole and Tziluv
 def recognize_mole(mole_name):
 	Epon = [19, 20, 4, 0] # C, H, O, N
 	Detda = [11, 18, 0, 2] # C, H, O, N
-	delta = [3, 4, 1, 0] # can be missed in a mole
+	delta = [5, 5, 2, 0] # can be missed in a mole
 	mole_name_org = mole_name
 	mole_name = mole_name.replace('C', '').replace('H', ' ').replace('O', ' ').replace('N', ' ')
 	amounts = mole_name.split()
@@ -139,18 +139,19 @@ def analyze_func(f_name,f124_vals):
 	##############pandas - for each mole in the run calculate the meadian value of the 11 step
 	df_csv = 'CSV_single_Res/species{}_{}_0_{}.csv'.format(f11, f12,f14)
 	df = pd.read_csv(df_csv)
-	u_cols = headers_csv.split(",")[7:]	
+	u_cols = headers_csv.split(",")[5:]	
 	df_runs = pd.read_csv(df_csv,  usecols = u_cols)
 	medians =[]
-	tziluv = tziluv[2:]
 	for column in df_runs:
 		medians.append(df_runs[column].sort_values(ascending=True).median())
+	print(medians)
 	if len(medians) >0 and medians[-1] == 0.0: # others mole should be - 0 for good run
 		goodness = sum([a*b for a,b in zip(medians,tziluv)])
 		if goodness > 0: # saving the run that tziluv was happend
 			dict_of_res['f11={}_f12={}_f13=0_f14={}_f2=0.75'.format(f11, f12,f14)] = goodness
 		else:
 			print("this ia a run with Tears - bad parameters!!")
+	print(dict_of_res)
 	if 	len(dict_of_res) == 1:
 		print("\nrun with good parameters:")
 		for keys,values in dict_of_res.items():
