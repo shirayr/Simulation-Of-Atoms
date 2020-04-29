@@ -20,7 +20,7 @@ return: how many D, E, name of the mole and Tziluv
 def recognize_mole(mole_name):
 	Epon = [19, 20, 4, 0] # C, H, O, N
 	Detda = [11, 18, 0, 2] # C, H, O, N
-	delta = [3, 4, 1, 0] # can be missed in a mole
+	delta = [5, 5, 2, 0] # can be missed in a mole
 	mole_name_org = mole_name
 	mole_name = mole_name.replace('C', '').replace('H', ' ').replace('O', ' ').replace('N', ' ')
 	amounts = mole_name.split()
