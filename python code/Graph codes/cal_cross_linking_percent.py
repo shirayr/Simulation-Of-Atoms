@@ -11,6 +11,7 @@ def make_graph(axis_x, axis_y, xlabel="x", ylabel="y", title="Graph"):
 	plt.xlabel(xlabel)
 	plt.ylabel(ylabel)
 	plt.title(title)
+	plt.savefig("linking percent")
 	plt.show()
 
 
