@@ -141,8 +141,6 @@ def analyze_func(run_dir,f1_vals):
 				u_cols = headers_csv.split(",")[5:]	
 				df_runs = pd.read_csv(df_csv,  usecols = u_cols)
 				medians =[]
-				if( f11 == 50 and f12==100 and f14 == 150):
-					print(tziluv)
 				for column in df_runs:
 					medians.append(df_runs[column].sort_values(ascending=True).median())
 				if len(medians) >0 and medians[-1] == 0.0: # others mole shuld be - 0 for good run
