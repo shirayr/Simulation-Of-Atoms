@@ -138,10 +138,9 @@ def analyze_func(run_dir,f1_vals):
 				##############pandas - for each mole in each run calculate the meadian value of the 11 step
 				df_csv = '{}/CSV/species{}_{}_0_{}.csv'.format(run_dir, f11, f12,f14)
 				df = pd.read_csv(df_csv)
-				u_cols = headers_csv.split(",")[7:]	
+				u_cols = headers_csv.split(",")[5:]	
 				df_runs = pd.read_csv(df_csv,  usecols = u_cols)
 				medians =[]
-				tziluv = tziluv[2:]
 				if( f11 == 50 and f12==100 and f14 == 150):
 					print(tziluv)
 				for column in df_runs:
