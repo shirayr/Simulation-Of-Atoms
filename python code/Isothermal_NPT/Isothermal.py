@@ -54,6 +54,8 @@ for file_name in glob.glob("Npt_Files\*.txt"): # reading all the npt - files
 	delta2 = mean(delta * delta) 
 	Isothermal =  delta2 / (kB * avgV * T) 
 	Isoth[nvtTimestep] = Isothermal
+    
+    
 ###############################visualization of the data###################
 ######################## Density of % Tziluv
 plt.figure()

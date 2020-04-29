@@ -20,6 +20,11 @@ def make_graph(axis_x, axis_y):
     plt.show()
 
 
+"""
+This function get res_nvt file and a string.
+The function search the lines that contains the string, related to the potential of several foursets,
+print them and display a graph that describe it.
+"""
 def find_fourset_output(file_path, str):
     timesteps = []
     num_foursets = []

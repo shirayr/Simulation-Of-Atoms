@@ -1,6 +1,6 @@
 '''
  cal_cross_number.py
- This script reads species files
+ This script reads species files,
  find and shows gragh of the crossover number for some points during the run. 
  Usage:
  python cal_cross_number.py 
@@ -22,41 +22,42 @@ def make_graph(axis_x, axis_y, xlabel="x", ylabel="y", title="Graph", name="Grap
 
 '''
 get a molecula
-return how many D, E, name of the mole and Tziluv
+return what the Tziluv for this molecula
 '''
 def recognize_mole(mole_name):
-	Epon = [19, 20, 4, 0]
-	Detda = [11, 18, 0, 2]
-	delta = [5, 5, 2, 0]
+	Epon = [19, 20, 4, 0] # C, H, O, N
+	Detda = [11, 18, 0, 2] # C, H, O, N
+	delta = [5, 5, 2, 0] # can be missed in a mole
 	mole_name_org = mole_name
 	mole_name = mole_name.replace('C', '').replace('H', ' ').replace('O', ' ').replace('N', ' ')
 	amounts = mole_name.split()
 	amounts = [int(i) for i in amounts]
-	if mole_name_org == "H2O":
+	if mole_name_org == "H2O": # this a a water, its not consider a tear
 		return 0
-	elif 'N' not in mole_name_org and len(amounts) == 3: # Epon
-		for i in (0, 1, 2):
+	elif 'N' not in mole_name_org and len(amounts) == 3: # Epon not contain N
+		for i in (0, 1, 2): # checking how many atoms for each base atom
 			if (Epon[i] - delta[i]) <= amounts[i] <= (Epon[i] + delta[i]):
 				continue
-			else:
-				return 0			
+			else: # its a tear
+				return 0	
 		return 0
-	elif 'O' not in mole_name_org and len(amounts) == 3: # Detda
-		amounts.append(amounts[2])
-		for i in (0, 1, 3):
+	elif 'O' not in mole_name_org and len(amounts) == 3: # Detda not contain O
+		amounts.append(amounts[2]) # 0
+		for i in (0, 1, 3): # checking how many atoms for each base atom
 			if (Detda[i] - delta[i]) <= amounts[i] <= (Detda[i] + delta[i]):
 				continue
-			else:
+			else: # its a tear
 				return 0
 		return 0
-	elif len(amounts) == 4: # Detda and Epon
-		count_D = round(amounts[3]/Detda[3])
-		count_E = round(amounts[2]/Epon[2])
-		for i in (0, 1 ,2 ,3):
+	elif len(amounts) == 4: # Detda and Epon - probably - Tziluv
+		count_D = round(amounts[3]/Detda[3]) # because only D has N atom
+		count_E = round(amounts[2]/Epon[2]) # because only E has O atom
+		for i in (0, 1 ,2 ,3): # checking the amount of the staemed atoms
 			if abs(amounts[i] - count_D*Detda[i] - count_E*Epon[i])  <= delta[i]:
 				continue
-			else:
+			else: #there were too many missing atoms
 				return 0					
+		str_mol = "D" + str(count_D) + "E" + str(count_E) 
 		Tziluv = count_D +count_E -1
 		return Tziluv
 	return 0
