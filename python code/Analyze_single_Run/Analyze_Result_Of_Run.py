@@ -2,7 +2,7 @@
  Analyze_Result_Of_Run.py
  Script that read species file
  calculate the amount of tziluv by meadian method (by 11 timestemp)
-print the Tziluv amount if its a run with no tears and produces a CSV file wuth the results
+print the Tziluv amount if its a run with no ruptures and produces a CSV file with the results
  Usage:
  python Analyze_Result_Of_Run.py 
 
@@ -25,13 +25,13 @@ def recognize_mole(mole_name):
 	mole_name = mole_name.replace('C', '').replace('H', ' ').replace('O', ' ').replace('N', ' ')
 	amounts = mole_name.split()
 	amounts = [int(i) for i in amounts]
-	if mole_name_org == "H2O": # this a a water, its not consider a tear
+	if mole_name_org == "H2O": # this a a water, its not consider a rupture
 		return 0, 0, "H2O", 0
 	elif 'N' not in mole_name_org and len(amounts) == 3: # Epon not contain N
 		for i in (0, 1, 2): # checking how many atoms for each base atom
 			if (Epon[i] - delta[i]) <= amounts[i] <= (Epon[i] + delta[i]):
 				continue
-			else: # its a tear
+			else: # its a rupture
 				return 0, 0, "Other", 0			
 		return 0, 1, "E1", 0
 	elif 'O' not in mole_name_org and len(amounts) == 3: # Detda not contain O
@@ -39,7 +39,7 @@ def recognize_mole(mole_name):
 		for i in (0, 1, 3): # checking how many atoms for each base atom
 			if (Detda[i] - delta[i]) <= amounts[i] <= (Detda[i] + delta[i]):
 				continue
-			else: # its a tear
+			else: # its a rupture
 				return 0, 0, "Other", 0
 		return 1, 0, "D1", 0
 	elif len(amounts) == 4: # Detda and Epon - probably - Tziluv
@@ -139,7 +139,7 @@ def analyze_func(f_name,f124_vals):
 	##############pandas - for each mole in the run calculate the meadian value of the 11 step
 	df_csv = 'CSV_single_Res/species{}_{}_0_{}.csv'.format(f11, f12,f14)
 	df = pd.read_csv(df_csv)
-	u_cols = headers_csv.split(",")[5:]	
+	u_cols = headers_csv.split(",")[5:]	#moleculas
 	df_runs = pd.read_csv(df_csv,  usecols = u_cols)
 	medians =[]
 	for column in df_runs:
@@ -150,7 +150,7 @@ def analyze_func(f_name,f124_vals):
 		if goodness > 0: # saving the run that tziluv was happend
 			dict_of_res['f11={}_f12={}_f13=0_f14={}_f2=0.75'.format(f11, f12,f14)] = goodness
 		else:
-			print("this ia a run with Tears - bad parameters!!")
+			print("this ia a run with ruptures - bad parameters!!")
 	print(dict_of_res)
 	if 	len(dict_of_res) == 1:
 		print("\nrun with good parameters:")

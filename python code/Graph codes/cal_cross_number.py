@@ -32,13 +32,13 @@ def recognize_mole(mole_name):
 	mole_name = mole_name.replace('C', '').replace('H', ' ').replace('O', ' ').replace('N', ' ')
 	amounts = mole_name.split()
 	amounts = [int(i) for i in amounts]
-	if mole_name_org == "H2O": # this a a water, its not consider a tear
+	if mole_name_org == "H2O": # this a a water, its not consider a rupture
 		return 0
 	elif 'N' not in mole_name_org and len(amounts) == 3: # Epon not contain N
 		for i in (0, 1, 2): # checking how many atoms for each base atom
 			if (Epon[i] - delta[i]) <= amounts[i] <= (Epon[i] + delta[i]):
 				continue
-			else: # its a tear
+			else: # its a rupture
 				return 0	
 		return 0
 	elif 'O' not in mole_name_org and len(amounts) == 3: # Detda not contain O
@@ -46,7 +46,7 @@ def recognize_mole(mole_name):
 		for i in (0, 1, 3): # checking how many atoms for each base atom
 			if (Detda[i] - delta[i]) <= amounts[i] <= (Detda[i] + delta[i]):
 				continue
-			else: # its a tear
+			else: # its a rupture
 				return 0
 		return 0
 	elif len(amounts) == 4: # Detda and Epon - probably - Tziluv
@@ -82,19 +82,10 @@ def cross_percent_graph():
     print('species_headlines', species_headlines)
     print('species_values', species_values)
 
-    mole_type_to_num_of_cross = {'C11H18N2': 0,
-                                 'C19H20O4': 0,
-                                 'C30H38O4N2': 1,
-                                 'C41H56O4N4': 2,
-                                 'C49H58O8N2': 2,
-                                 'C68H78O12N2': 3,
-                                 'C79H96O12N4': 4}
-
     cross_percent = {}
     for species_headline, species_value in zip(species_headlines, species_values):
         cross_percent[species_value[0]] = 0
         for mole_type, num_mole in zip(species_headline[3:], species_value[3:]):
-            # cross_percent[species_value[0]] += mole_type_to_num_of_cross[mole_type] * int(num_mole) if mole_type in mole_type_to_num_of_cross else 0
             cross_percent[species_value[0]] += recognize_mole(mole_type) * int(num_mole)
 
     cross_percent = list(cross_percent.values())
