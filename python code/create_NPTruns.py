@@ -1,14 +1,14 @@
 # createNPTruns.py
 # Script that compiles and executes .cpp files
+# have to initialize the timeStep parameter(timesteps for run the NPT) befofe start the run
 # Usage:
-# python createNPTruns.py -i <filename> (without .cpp extension)
+# python createNPTruns.py (without .cpp extension)
 
 import sys, os, getopt, re 
 import shutil
 def main():
 	run_dir =  '/home/student/Desktop/Shira_Michal/before_ delete/8_16'
-	# 'd400000_lmps.dat', 'd800000_lmps.dat', 
-	input_files = [ 'd1200000_lmps.dat', 'd1600000_lmps.dat', 'd2000000_lmps.dat']
+	input_files = [ 'd0_lmps.dat', 'd450000_lmps.dat','d760000_lmps.dat', 'd820000_lmps.dat','d1500000_lmps.dat','d2000000_lmps.dat','d2600000_lmps.dat','d3600000_lmps.dat']
 	timeStep = 1000000
 
 	for input_f in input_files:
@@ -19,7 +19,7 @@ def main():
 		in_file.close()
 		in_file = open('{}/npt/in.npt'.format(run_dir), 'w')
 		data = lines[2].split()
-		data[1] = input_f
+		data[1] = "input_files/"+input_f
 		lines[2] = ' '.join(data) + '\n'
 		data = lines[-1].split()
 		data[1] = str(timeStep)
@@ -41,10 +41,9 @@ def main():
 			inputFile_t = str('{}/npt/dump/dump.reax.npt.'.format(run_dir))+str(i)
 			all_results = str('{}/npt/all_results_for_npt/'.format(run_dir, i))+input_f+'_dump'+str(i)
 			shutil.copy2(inputFile_t, all_results)
-		break
 
 		###################################################################################################
-	print("yayy")
+	print("Complited")
 
 def run(dir, cmd, out_file):
     os.chdir(dir)
