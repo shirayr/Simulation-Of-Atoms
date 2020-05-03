@@ -44,7 +44,7 @@ def species_reader():
 	No_Moles=[]
 	No_Specs=[]
 	trucker=[[],[],[],[]]
-	fp = open("species50_150_0_150.out","r") 
+	fp = open("species50_100_0_150.txt","r") 
 	text=fp.read() 
 	text_list = text.split("\n")
 	species_at_end=[]
