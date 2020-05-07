@@ -1,0 +1,2160 @@
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+1900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+2900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+3900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+4900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+5900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+6900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+7900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+8900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+9900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+10900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+11900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+12900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+13900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+14900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+15900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+16900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+17900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+18900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+19900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+20900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+21900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+22900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+23900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+24900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+25900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+26900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+27900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+28900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+29900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30700         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+30900         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+31000         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+31100         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+31200         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+31300         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+31400         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+31500         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+31600         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+31700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C11H18N2	
+31800         24          2	 16	 8	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+31900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+32000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C19H21O4	C11H18N2	C11H17N2	
+32100         24          4	 15	 1	 7	 1	
+# Timestep     No_Moles     No_Specs     C19H20O4	C19H21O4	C11H18N2	C11H17N2	
+32200         24          4	 15	 1	 7	 1	
+# Timestep     No_Moles     No_Specs     C19H20O4	C19H21O4	C11H18N2	C11H17N2	
+32300         24          4	 15	 1	 7	 1	
+# Timestep     No_Moles     No_Specs     C19H20O4	C19H21O4	C11H18N2	C11H17N2	
+32400         24          4	 15	 1	 7	 1	
+# Timestep     No_Moles     No_Specs     C19H20O4	C19H21O4	C11H18N2	C11H17N2	
+32500         24          4	 15	 1	 7	 1	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+32600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+32700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+32800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+32900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+33900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+34900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+35900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+36900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+37900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+38900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+39900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+40900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+41900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+42900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+43900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+44900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+45900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+46900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+47900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+48900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+49900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+50900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+51900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+52900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+53900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+54900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+55900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+56900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+57900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+58900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+59900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+60900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+61900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+62900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+63900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64400         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64600         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64700         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64800         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+64900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+65900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+66900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+67900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+68900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69800         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+69900         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70400         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70500         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70700         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+70900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71700         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71800         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+71900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72700         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+72900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73100         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73200         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73300         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73500         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73600         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73800         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+73900         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74100         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74200         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+74900         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75000         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75100         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75200         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75300         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75500         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75600         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75800         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+75900         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76000         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76200         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76400         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76700         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+76900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77100         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77400         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77500         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77600         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77800         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+77900         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78000         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78100         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78300         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78400         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78600         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78700         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78800         22          3	 14	 2	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+78900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+79900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+80900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+81900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+82900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+83900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+84900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+85900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+86900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+87900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+88900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+89900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+90900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+91900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+92900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+93900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+94900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+95900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+96900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+97900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+98000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+98100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+98200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+98300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+98400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+98500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+98600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+98700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C30H38O4N2	C19H20O4	C11H18N2	
+98800         22          3	 2	 14	 6	
+# Timestep     No_Moles     No_Specs     C30H38O4N2	C19H20O4	C11H18N2	
+98900         22          3	 2	 14	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+99000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+99100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C27H33O3N2	C3H5O	C19H20O4	C30H38O4N2	C11H18N2	
+99200         23          5	 1	 1	 14	 1	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+99300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C30H38O4N2	C19H20O4	C11H18N2	
+99400         22          3	 2	 14	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+99500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+99600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+99700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+99800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+99900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+100000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C30H38O4N2	C19H20O4	C11H18N2	
+100100         22          3	 2	 14	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+100200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C30H38O4N2	C19H20O4	C11H18N2	
+100300         22          3	 2	 14	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+100400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+100500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+100600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+100700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+100800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+100900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+101900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+102900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+103900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+104000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+104100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+104200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+104300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+104400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+104500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+104600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+104700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+104800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C27H33O3N2	C3H5O	C30H38O4N2	C11H18N2	
+104900         23          5	 14	 1	 1	 1	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+105900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+106000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+106100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+106200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C27H33O3N2	C3H5O	C30H38O4N2	C11H18N2	
+106300         23          5	 14	 1	 1	 1	 6	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+106400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+106500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+106600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+106700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+106800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+106900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107000         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107100         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107200         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107300         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107400         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107500         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107600         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107700         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107800         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+107900         23          3	 15	 1	 7	
+# Timestep     No_Moles     No_Specs     C19H20O4	C30H38O4N2	C11H18N2	
+108000         23          3	 15	 1	 7	
