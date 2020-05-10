@@ -22,6 +22,10 @@
 
    Extra potential code addition:
    Ofek Barazani (Azrieli college of engineering, ofek1b@gmail.com)
+   
+   Foursets code addition:
+   Michal Gabay (Azrieli college of engineering, michalg552@gmail.com)
+   Shira Yerushalmi (Azrieli college of engineering, shirushalmi@gmail.com)
 ------------------------------------------------------------------------- */
 
 #ifdef PAIR_CLASS
@@ -62,7 +66,7 @@ class PairReaxC : public Pair {
 
   bigint ngroup;
   
-  //mine
+  //ofek
   double **F1,**F2, **wanted_dist; // F1, F2, R12 extra potential parameters
   int set_fourset(int**, int); //get a founded fourset and apply the extra potentia on
   int set_extra_potential_parameters(); // set  F1, F2, R12 from the user input file
@@ -97,7 +101,7 @@ class PairReaxC : public Pair {
   void FindBond();
   double memory_usage();
 
-  //mine
+  //ofek
   int **fourset; //the foursets we apply the extra potential on
   int num_fourset; //the number of foursets we apply the extra potential on
   int count_bb_timesteps; //how many timesteps we already apply the extra potential on the fourset

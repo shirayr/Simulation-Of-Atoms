@@ -13,6 +13,10 @@
 
 /* ----------------------------------------------------------------------
    Contributing author: Ofek Brazani (Azrieli college of engineering, ofek1b@gmail.com)
+   
+   Foursets code addition:
+   Michal Gabay (Azrieli college of engineering, michalg552@gmail.com)
+   Shira Yerushalmi (Azrieli college of engineering, shirushalmi@gmail.com)
 ------------------------------------------------------------------------- */
 
 #include <cstdlib>
@@ -54,7 +58,7 @@ FixReaxCCheckFourset::FixReaxCCheckFourset(LAMMPS *lmp, int narg, char **arg) :
 
   nevery_cond_check=10; //DEFAULT VALUE
   nevery = force->inumeric(FLERR,arg[3]);
-//ofek todo
+
   if (nevery <= 0 )
     error->all(FLERR,"Illegal fix reax/c/checkFourset command, illigal nevery");//**********
   nevery_cond_check=nevery;
@@ -107,8 +111,12 @@ FixReaxCCheckFourset::FixReaxCCheckFourset(LAMMPS *lmp, int narg, char **arg) :
   n_tags=NULL;
   MAX_NUM_FOURSETS=atom->nlocal;
   timeout_timesteps_at_start_and_end=10000; //default value
+  
+  // Michal & Shira
   follow_selected_atoms = NULL;
-  ATOMS_ARRAY_SIZE = 937;	// 936+1 (num atoms + 1)
+  ATOMS_ARRAY_SIZE = atom->nlocal + 1;
+  ////// for checking
+  printf("\n -------- ATOMS_ARRAY_SIZE = %d\n", ATOMS_ARRAY_SIZE);
 
   allocate(); //allocate all the memory for each struct.
   strcpy(fp_suffix,arg[4]); //define the suffix for each dists file that follow dists between reactive atoms
@@ -116,9 +124,6 @@ FixReaxCCheckFourset::FixReaxCCheckFourset(LAMMPS *lmp, int narg, char **arg) :
   int _set_flag=set_mol_pattern();//set o_c_pair_tags, n_tags by the user input
   if(_set_flag!=0) error->all(FLERR,"Illegal \"Extra_Potential_Parameters\" file, illigal molecole file pattern");//**********
   
-  ////// for checking
-  printf("\n -------- MAX_NUM_FOURSETS = %d\n", MAX_NUM_FOURSETS);
-
 }
 
 /* ---------------------------------------------------------------------- */
@@ -379,7 +384,6 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
                       fourset[num_fourset][2] = atom_i3->orig_id;
                       fourset[num_fourset][3] = atom_i4->orig_id;
                       num_fourset++;
-					  printf("\n -----------fourset: %d, %d, %d, %d\n num_fourset: %d \n", atom_i1->orig_id, atom_i2->orig_id, atom_i3->orig_id, atom_i4->orig_id, num_fourset);
                     }
                   }
                 }
@@ -398,7 +402,8 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
     printf("\n");
   }*/
 
-    if(num_fourset!=0){
+    // Michal & Shira
+	if(num_fourset!=0){
 		
 		// Check which quartets meet the conditions and delete those that do not
 		// Initialize the follow_selected_atoms array
@@ -406,7 +411,7 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
 		{
 			follow_selected_atoms[i] = false;
 		}
-		printf("\n--------- in fix_reaxc: init array\n");
+		printf("\n in fix_reaxc: init array\n");
 		
 		
 		// If an atom is already in another quartet, delete the current quartet in which it appears
@@ -469,7 +474,7 @@ void FixReaxCCheckFourset::FindNbr(struct _reax_list * /*lists*/)
 			}
 		}
 		else{
-			printf("\n -----ERROR: invalid zeros quarter \n");
+			printf("\n ERROR: invalid zeros quarter \n");
 		}
     }
   
@@ -499,11 +504,11 @@ void FixReaxCCheckFourset::destroy()
 
 void FixReaxCCheckFourset::allocate()
 {
-  memory->create(fourset,MAX_NUM_FOURSETS,4,"reax/c/checkFourset:fourset");//***************
-  memory->create(o_c_pair_tags,4,2,"reax/c/checkFourset:o_c_pair_tags");//***************
-  memory->create(n_tags,2,"reax/c/checkFourset:n_tags");//***************
-  memory->create(fp_suffix,100,"reax/c/checkFourset:fp_suffix");//***************
-  memory->create(follow_selected_atoms,ATOMS_ARRAY_SIZE,"reax/c/checkFourset:follow_selected_atoms");
+  memory->create(fourset,MAX_NUM_FOURSETS,4,"reax/c/checkFourset:fourset");
+  memory->create(o_c_pair_tags,4,2,"reax/c/checkFourset:o_c_pair_tags");
+  memory->create(n_tags,2,"reax/c/checkFourset:n_tags");
+  memory->create(fp_suffix,100,"reax/c/checkFourset:fp_suffix");
+  memory->create(follow_selected_atoms,ATOMS_ARRAY_SIZE,"reax/c/checkFourset:follow_selected_atoms");// Michal & Shira
 }
 
 /* ---------------------------------------------------------------------- */
@@ -516,7 +521,7 @@ double FixReaxCCheckFourset::memory_usage()
   bytes += 1.0*4*2*sizeof(int);//o_c_pair_tags
   bytes += 1.0*2*sizeof(int);//n_tags
   bytes += 1.0*100*sizeof(char);//fp_suffix
-  bytes += 1.0*ATOMS_ARRAY_SIZE*sizeof(bool);//follow_selected_atoms
+  bytes += 1.0*ATOMS_ARRAY_SIZE*sizeof(bool);//follow_selected_atoms	// Michal & Shira
 
   return bytes;
 }

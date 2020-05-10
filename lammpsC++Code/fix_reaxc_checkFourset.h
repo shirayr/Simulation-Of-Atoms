@@ -11,6 +11,14 @@
    See the README file in the top-level LAMMPS directory.
 ------------------------------------------------------------------------- */
 
+/* ----------------------------------------------------------------------
+   Contributing author: Ofek Brazani (Azrieli college of engineering, ofek1b@gmail.com)
+   
+   Foursets code addition:
+   Michal Gabay (Azrieli college of engineering, michalg552@gmail.com)
+   Shira Yerushalmi (Azrieli college of engineering, shirushalmi@gmail.com)
+------------------------------------------------------------------------- */
+
 #ifdef FIX_CLASS
 
 FixStyle(reax/c/checkFourset,FixReaxCCheckFourset)
@@ -51,6 +59,7 @@ class FixReaxCCheckFourset : public Fix {
   int nevery_cond_check; // every this many steps look for legal foursets
   int timeout_timesteps_at_start_and_end; //parameter for first and last timesteps number to run only reaxff to stable the system
 
+  // Michal & Shira
   // Support the activation of the additional potential on several quarters simultaneously
   bool *follow_selected_atoms;	// keeps track of the atoms for the fourset list, so as not to keep the same atom in 2 quarters
   int ATOMS_ARRAY_SIZE;

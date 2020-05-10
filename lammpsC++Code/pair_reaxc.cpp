@@ -21,6 +21,10 @@
 
    Extra potential code addition:
    Ofek Barazani (Azrieli college of engineering, ofek1b@gmail.com)
+   
+   Foursets code addition:
+   Michal Gabay (Azrieli college of engineering, michalg552@gmail.com)
+   Shira Yerushalmi (Azrieli college of engineering, shirushalmi@gmail.com)
 ------------------------------------------------------------------------- */
 #include <stdio.h>
 #include <string.h>
@@ -110,7 +114,7 @@ PairReaxC::PairReaxC(LAMMPS *lmp) : Pair(lmp)
   system->my_coords[2] = 0;
   system->num_nbrs = 0;
   system->n = 0; // my atoms
-  system->N = 0; // mine + ghosts
+  system->N = 0; // ofek + ghosts
   system->bigN = 0;  // all atoms in the system
   system->local_cap = 0;
   system->total_cap = 0;
@@ -197,7 +201,7 @@ PairReaxC::~PairReaxC()
   memory->destroy( out_control );
   memory->destroy( mpi_data );
 
-  //mine
+  //ofek
   memory->destroy( fourset );
   memory->destroy( wanted_dist );
   memory->destroy( F1 );
@@ -234,7 +238,7 @@ void PairReaxC::allocate( )
   memory->create(cutsq,n+1,n+1,"pair:cutsq");
   memory->create(cutghost,n+1,n+1,"pair:cutghost");
 
-  //mine
+  //ofek
   memory->create(fourset,atom->nlocal,4,"pair:fourset");
   memory->create(wanted_dist,n+1,n+1,"pair:wanted_dist");
   memory->create(F1,n+1,n+1,"pair:F1");
@@ -403,7 +407,7 @@ void PairReaxC::coeff( int nargs, char **args )
 
   if (count == 0) error->all(FLERR,"Incorrect args for pair coefficients");
 
-  //mine
+  //ofek
   //reset the parameters arrays.
   for(int i=0; i<atom->ntypes+1; i++){
     for(int j=0; j<atom->ntypes+1; j++){
@@ -431,7 +435,7 @@ void PairReaxC::init_style( )
     error->all(FLERR,"Pair reax/c requires use of fix qeq/reax");
 
   system->n = atom->nlocal; // my atoms
-  system->N = atom->nlocal + atom->nghost; // mine + ghosts
+  system->N = atom->nlocal + atom->nghost; // ofek + ghosts
   system->bigN = static_cast<int> (atom->natoms);  // all atoms in the system
   system->wsize = comm->nprocs;
 
@@ -489,7 +493,7 @@ void PairReaxC::setup( )
   double safezone = system->safezone;
 
   system->n = atom->nlocal; // my atoms
-  system->N = atom->nlocal + atom->nghost; // mine + ghosts
+  system->N = atom->nlocal + atom->nghost; // ofek + ghosts
   oldN = system->N;
   system->bigN = static_cast<int> (atom->natoms);  // all atoms in the system
 
@@ -570,7 +574,7 @@ void PairReaxC::compute(int eflag, int vflag)
   int *num_bonds = fix_reax->num_bonds;
   int *num_hbonds = fix_reax->num_hbonds;
   
-  //mine
+  //ofek
   //cool the system after operate the extra potential.
   if(calm_down>0){
     calm_down--;
@@ -583,7 +587,7 @@ void PairReaxC::compute(int eflag, int vflag)
   else control->virial = 0;
 
   system->n = atom->nlocal; // my atoms
-  system->N = atom->nlocal + atom->nghost; // mine + ghosts
+  system->N = atom->nlocal + atom->nghost; // ofek + ghosts
   system->bigN = static_cast<int> (atom->natoms);  // all atoms in the system
 
   system->big_box.V = 0;
@@ -608,7 +612,7 @@ void PairReaxC::compute(int eflag, int vflag)
 
   Compute_Forces(system,control,data,workspace,&lists,out_control,mpi_data);
 
-  // mine
+  // ofek
   double added_e=0; //the energy that the extra potential added to the system
 	if(flag_bb==1){
     //if the extra potential is working, calculate the energy & forces
@@ -944,7 +948,7 @@ double PairReaxC::memory_usage()
   if(fixspecies_flag)
     bytes += 2 * nmax * MAXSPECBOND * sizeof(double);
 
-  //mine
+  //ofek
   bytes += 4.0 * atom->nlocal * sizeof(int); //for fourset
   bytes += 5.0 * 5.0 * sizeof(double); //for F1
   bytes += 5.0 * 5.0 * sizeof(double); //for F2
@@ -1142,7 +1146,8 @@ int PairReaxC::set_fourset(int **foursets, int num_foursets){
   int i;
   num_fourset=0;
   //copy the f 2D array (to avoid aliasing)
-  printf("\n -----------In pair_reaxc\n");
+  // Michal & Shira
+  printf("\n In pair_reaxc\n");
   for(i=0; i<num_foursets; i++){
 	// invalid quartet - considered as deleted - do not copy
 	if(foursets[i][0] == 0 && foursets[i][1] == 0 && foursets[i][2] == 0 && foursets[i][3] == 0){
